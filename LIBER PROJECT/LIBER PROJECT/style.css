@@ -1,0 +1,37 @@
+* {
+    margin: auto;   
+    background-color: #cce6d5;
+}
+
+.homepage {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.title {
+    font-family: 'hatton', 'Neue Montreal', sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.homepage h2 {
+    margin-top: 40px;
+    font-family: 'Agrandir', 'Neue Montreal', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.homepage p {
+    margin-top: 8%;
+    font-size: 25px;
+    font-family: 'Space Mono', monospace;
+    color: darkgreen;
+}
+
+input {
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
