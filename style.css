@@ -1,0 +1,50 @@
+/* Global Reset and Background Color */
+* {
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    box-sizing: border-box; /* Ensure padding and border don't affect element sizes */
+}
+
+body {
+    background-color: #cce6d5; /* Soft green background */
+    font-family: 'Space Mono', monospace; /* Set a default font for the body */
+    color: rgb(255, 255, 255); /* White text color for contrast with the soft green background */
+    text-align: center;
+    padding: 50px 0;
+}
+
+.homepage {
+    max-width: 800px; /* Limiting the width of the main container for better readability on larger screens */
+    margin: auto; /* Center the .homepage container */
+}
+
+.title {
+    font-family: 'hatton', 'Neue Montreal', sans-serif;
+    text-decoration: none;
+    font-size: 40px; /* Made the title a bit larger for prominence */
+    color: #00313C; /* Switched to a deep blue color for better visibility against the background */
+}
+
+.homepage h2 {
+    margin-top: 40px;
+    font-family: 'Agrandir', 'Neue Montreal', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.homepage p {
+    margin-top: 40px; /* Reduced the margin-top for uniformity */
+    font-size: 25px;
+    color: darkgreen;
+}
+
+input[type="image"] {
+    width: 80px;
+    height: 80px;
+    margin: 40px 80px;
+    border-radius: 50%; /* Makes the images circular */
+    transition: transform 0.3s ease; /* For a smooth hover effect */
+}
+
+input[type="image"]:hover {
+    transform: scale(1.1); /* Slightly enlarge the images on hover for interactive feel */
+}

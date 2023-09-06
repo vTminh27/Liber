@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    background-color: #c68c53a8;
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+}
+
+.note {
+    margin: auto;
+    width: 90%;
+}
+
+.noteContainer {
+    margin-left: 5%;
+}
+
+.noteContainer2 {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-left: 5%;
+}
+
+.noteContainer3 {
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 41%; 
+}
+
+textarea {
+    box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.75);
+    outline: none;
+    border: none;
+    width: 275px;
+    height: 275px;
+    padding: 40px 25px 25px 25px;
+}
+
+svg {
+    color: gray;
+}
+
+#check-Icon {
+    position: absolute;
+    right: 18%;
+    top: 5%;
+}
+
+#x-Circle {
+    position: absolute;
+    right: 9%;
+    top: 5%;
+}
+
+#button {
+    position: fixed;
+    left: 80%;
+    top: 0;
+}
